@@ -1,0 +1,51 @@
+import type { Metadata } from 'next'
+import { Noto_Sans_JP } from 'next/font/google'
+import './globals.css'
+
+const notoSansJP = Noto_Sans_JP({ 
+  subsets: ['latin'],
+  weight: ['400', '500', '600', '700'],
+  display: 'swap',
+})
+
+export const metadata: Metadata = {
+  title: 'Kenogami - Knowledge That Adapts, Delivers, and Evolves',
+  description: 'Transform your static documentation into an intelligent knowledge system that learns from every interaction, adapts to each user, and evolves with your product.',
+  keywords: 'knowledge base, documentation, SaaS, AI, intelligent documentation, multi-tenant',
+  authors: [{ name: 'Kenogami' }],
+  openGraph: {
+    title: 'Kenogami - Intelligent Knowledge Platform',
+    description: 'Transform documentation into intelligent knowledge',
+    url: 'https://www.kenogami.com',
+    siteName: 'Kenogami',
+    images: [
+      {
+        url: 'https://www.kenogami.com/og-image.png',
+        width: 1200,
+        height: 630,
+      },
+    ],
+    locale: 'en_US',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Kenogami - Intelligent Knowledge Platform',
+    description: 'Transform documentation into intelligent knowledge',
+    images: ['https://www.kenogami.com/twitter-image.png'],
+  },
+}
+
+export default function RootLayout({
+  children,
+}: {
+  children: React.ReactNode
+}) {
+  return (
+    <html lang="en">
+      <body className={notoSansJP.className}>
+        {children}
+      </body>
+    </html>
+  )
+}
