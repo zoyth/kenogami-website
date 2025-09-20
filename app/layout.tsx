@@ -11,7 +11,7 @@ const notoSansJP = Noto_Sans_JP({
 export const metadata: Metadata = {
   title: 'Kenogami - Knowledge That Adapts, Delivers, and Evolves',
   description: 'Transform your static documentation into an intelligent knowledge system that learns from every interaction, adapts to each user, and evolves with your product.',
-  keywords: 'knowledge base, documentation, SaaS, AI, intelligent documentation, multi-tenant',
+  keywords: 'knowledge base, documentation, SaaS, AI, intelligent documentation, enterprise',
   authors: [{ name: 'Kenogami' }],
   icons: {
     icon: '/images/kenogami_fav.png',

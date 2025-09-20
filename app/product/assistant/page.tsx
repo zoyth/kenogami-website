@@ -47,7 +47,7 @@ export default function AssistantPage() {
                     <div className="flex gap-3">
                       <div className="w-8 h-8 bg-gray-100 rounded-full flex-shrink-0"></div>
                       <div className="bg-gray-100 rounded-2xl rounded-tl-sm p-3 max-w-[80%]">
-                        <p className="text-sm text-gray-700">How do I configure multi-tenant settings?</p>
+                        <p className="text-sm text-gray-700">How do I configure my organization's settings?</p>
                       </div>
                     </div>
                     <div className="flex gap-3 justify-end">

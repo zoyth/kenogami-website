@@ -17,7 +17,7 @@ export default function Hero() {
           </h1>
           
           <p className="mx-auto max-w-3xl text-xl text-gray-600 mb-10 leading-relaxed">
-            Deploy a secure, multi-tenant knowledge base trusted by leading companies. 
+            Deploy a secure, professional knowledge base trusted by leading companies. 
             Beautiful documentation that your team will love to create and users will love to read.
           </p>
           

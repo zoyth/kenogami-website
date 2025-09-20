@@ -20,7 +20,7 @@ export default function PublisherPage() {
                   <span className="gradient-text"> That Delivers</span>
                 </h1>
                 <p className="text-xl text-gray-600 mb-8">
-                  A powerful multi-tenant CMS built for teams that take documentation seriously. 
+                  A powerful CMS built for teams that take documentation seriously. 
                   Write once, publish everywhere with beautiful, branded knowledge bases.
                 </p>
                 <div className="flex flex-col sm:flex-row gap-4">
@@ -48,8 +48,8 @@ export default function PublisherPage() {
                       <span className="text-2xl">🏢</span>
                     </div>
                     <div>
-                      <h3 className="font-semibold text-gray-900">Multi-Tenant</h3>
-                      <p className="text-sm text-gray-600">Isolated workspaces with custom domains</p>
+                      <h3 className="font-semibold text-gray-900">Custom Domains</h3>
+                      <p className="text-sm text-gray-600">Publish your knowledge base on your own domain</p>
                     </div>
                   </div>
                   <div className="flex items-center gap-4">

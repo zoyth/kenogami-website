@@ -38,7 +38,7 @@ export default function VisionPage() {
                       <div className="flex-1 text-right pr-8">
                         <h3 className="text-xl font-bold text-gray-900">Today</h3>
                         <p className="text-gray-600 mt-2">
-                          Multi-tenant knowledge base platform with powerful CMS, version control, 
+                          Professional knowledge base platform with powerful CMS, version control, 
                           and beautiful public documentation sites.
                         </p>
                       </div>

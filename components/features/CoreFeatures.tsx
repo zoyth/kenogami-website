@@ -2,9 +2,9 @@ export default function CoreFeatures() {
   const features = [
     {
       icon: '🏢',
-      title: 'Multi-Tenant Architecture',
-      description: 'Complete tenant isolation with subdomain and custom domain support. Each customer gets their own branded knowledge base.',
-      benefits: ['Data isolation', 'Custom subdomains', 'Tenant branding'],
+      title: 'Enterprise Architecture',
+      description: 'Scalable platform with custom domain support. Create branded knowledge bases for your organization.',
+      benefits: ['Custom domains', 'Brand customization', 'Scalable infrastructure'],
       status: 'available'
     },
     {

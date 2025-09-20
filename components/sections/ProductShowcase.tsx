@@ -12,7 +12,7 @@ export default function ProductShowcase() {
       name: 'Knowledge Publisher',
       status: 'Available Now',
       statusColor: 'bg-green-100 text-green-800',
-      description: 'Multi-tenant knowledge base with built-in intelligence',
+      description: 'Professional knowledge base with built-in intelligence',
       features: [
         'Beautiful, responsive design',
         'Intelligent search',
