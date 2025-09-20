@@ -10,7 +10,7 @@ export default function WritersSolutionPage() {
   return (
     <>
       <Header />
-      <main>
+      <main id="main-content">
         <WritersHero />
         <WritersTools />
         <WritersWorkflow />

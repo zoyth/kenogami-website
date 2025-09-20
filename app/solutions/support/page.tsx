@@ -11,7 +11,7 @@ export default function SupportSolutionPage() {
   return (
     <>
       <Header />
-      <main>
+      <main id="main-content">
         <SupportHero />
         <SupportChallenges />
         <SupportSolution />

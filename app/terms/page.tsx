@@ -5,7 +5,7 @@ export default function TermsPage() {
   return (
     <>
       <Header />
-      <main className="pt-20">
+      <main id="main-content" className="pt-20">
         <section className="py-20">
           <div className="section-container">
             <div className="max-w-4xl mx-auto">

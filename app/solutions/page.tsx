@@ -8,7 +8,7 @@ export default function SolutionsPage() {
   return (
     <>
       <Header />
-      <main>
+      <main id="main-content">
         <SolutionsHero />
         <SolutionsGrid />
         <SolutionsCTA />

@@ -1,6 +1,9 @@
 import type { Metadata } from 'next'
 import { Noto_Sans_JP } from 'next/font/google'
 import './globals.css'
+import { organizationSchema, websiteSchema } from '@/lib/seo'
+import GoogleAnalytics from '@/components/analytics/GoogleAnalytics'
+import SkipToContent from '@/components/accessibility/SkipToContent'
 
 const notoSansJP = Noto_Sans_JP({ 
   subsets: ['latin'],
@@ -48,7 +51,23 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <head>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify(organizationSchema),
+          }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify(websiteSchema),
+          }}
+        />
+      </head>
       <body className={notoSansJP.className}>
+        <SkipToContent />
+        <GoogleAnalytics />
         {children}
       </body>
     </html>

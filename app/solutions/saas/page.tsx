@@ -11,7 +11,7 @@ export default function SaaSSolutionPage() {
   return (
     <>
       <Header />
-      <main>
+      <main id="main-content">
         <SaaSSolutionHero />
         <SaaSChallenges />
         <SaaSSolution />

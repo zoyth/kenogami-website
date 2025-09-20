@@ -6,7 +6,7 @@ export default function AssistantPage() {
   return (
     <>
       <Header />
-      <main className="pt-20">
+      <main id="main-content" className="pt-20">
         {/* Hero Section */}
         <section className="bg-gradient-to-b from-brand-ghost to-white py-20">
           <div className="section-container">
