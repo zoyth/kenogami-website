@@ -1,4 +1,5 @@
 import Hero from '@/components/sections/Hero'
+import TrustSignals from '@/components/sections/TrustSignals'
 import Problem from '@/components/sections/Problem'
 import Solution from '@/components/sections/Solution'
 import HowItWorks from '@/components/sections/HowItWorks'
@@ -15,6 +16,7 @@ export default function HomePage() {
       <Header />
       <main>
         <Hero />
+        <TrustSignals />
         <Problem />
         <Solution />
         <HowItWorks />

@@ -1,1 +1,0 @@
-self.__NEXT_FONT_MANIFEST="{\"pages\":{},\"app\":{\"/Users/francoislane/dev/test/kenogami-website/app/layout\":[\"static/media/f2dba9fbcf2f771b-s.p.woff2\"]},\"appUsingSizeAdjust\":true,\"pagesUsingSizeAdjust\":false}"

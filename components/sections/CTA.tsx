@@ -6,26 +6,26 @@ export default function CTA() {
       <div className="section-container">
         <div className="text-center">
           <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">
-            Ready to Revolutionize Your Knowledge?
+            Ready to Build Better Documentation?
           </h2>
           <p className="text-xl text-primary-100 max-w-2xl mx-auto mb-10">
-            Join forward-thinking companies using Kenogami to transform their documentation 
-            into intelligent knowledge that delivers real results.
+            Join teams using Kenogami to create, manage, and publish professional 
+            documentation that users actually read.
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-8">
-            <Link 
-              href="/trial" 
+            <a 
+              href="https://app.kenogami.com/auth/signup" 
               className="bg-white hover:bg-gray-100 text-primary-700 font-semibold py-4 px-8 rounded-lg transition-colors duration-200 shadow-lg hover:shadow-xl text-lg"
             >
               Start 14-Day Free Trial
-            </Link>
-            <Link 
-              href="/demo" 
+            </a>
+            <a 
+              href="https://app.kenogami.com/auth/signup" 
               className="bg-primary-700 hover:bg-primary-900 text-white font-semibold py-4 px-8 rounded-lg border-2 border-white transition-colors duration-200 text-lg"
             >
-              Schedule Demo
-            </Link>
+              Get Started Today
+            </a>
           </div>
           
           <div className="flex flex-col sm:flex-row gap-6 justify-center text-primary-100">

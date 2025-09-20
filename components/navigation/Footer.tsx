@@ -53,7 +53,6 @@ export default function Footer() {
               <li><Link href="/solutions/saas" className="hover:text-white transition-colors">For SaaS</Link></li>
               <li><Link href="/solutions/support" className="hover:text-white transition-colors">For Support</Link></li>
               <li><Link href="/solutions/writers" className="hover:text-white transition-colors">For Writers</Link></li>
-              <li><Link href="/solutions/developers" className="hover:text-white transition-colors">For Developers</Link></li>
             </ul>
           </div>
 
@@ -62,9 +61,6 @@ export default function Footer() {
             <h3 className="text-white font-semibold mb-4">Resources</h3>
             <ul className="space-y-2">
               <li><a href="https://docs.kenogami.com" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">Documentation</a></li>
-              <li><Link href="/api" className="hover:text-white transition-colors">API Reference</Link></li>
-              <li><Link href="/blog" className="hover:text-white transition-colors">Blog</Link></li>
-              <li><Link href="/case-studies" className="hover:text-white transition-colors">Case Studies</Link></li>
             </ul>
           </div>
 
@@ -74,7 +70,6 @@ export default function Footer() {
             <ul className="space-y-2">
               <li><Link href="/about" className="hover:text-white transition-colors">About</Link></li>
               <li><Link href="/vision" className="hover:text-white transition-colors">Vision</Link></li>
-              <li><Link href="/careers" className="hover:text-white transition-colors">Careers</Link></li>
               <li><Link href="/contact" className="hover:text-white transition-colors">Contact</Link></li>
             </ul>
           </div>
@@ -110,8 +105,6 @@ export default function Footer() {
           <div className="mt-4 sm:mt-0 flex space-x-6 text-sm">
             <Link href="/privacy" className="hover:text-white transition-colors">Privacy Policy</Link>
             <Link href="/terms" className="hover:text-white transition-colors">Terms of Service</Link>
-            <Link href="/security" className="hover:text-white transition-colors">Security</Link>
-            <Link href="/status" className="hover:text-white transition-colors">Status</Link>
           </div>
         </div>
       </div>

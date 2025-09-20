@@ -7,12 +7,12 @@ export default function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
   return (
-    <header className="fixed w-full bg-brand-ghost/90 backdrop-blur-md z-50 border-b border-primary-100">
+    <header className="fixed w-full bg-white/95 backdrop-blur-sm z-50 border-b border-gray-100">
       <nav className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8" aria-label="Top">
         <div className="flex w-full items-center justify-between py-4">
           <div className="flex items-center">
             <Link href="/" className="flex items-center">
-              <img src="/images/kenogami_logo.png" alt="Kenogami" className="h-12 w-auto" />
+              <img src="/images/kenogami_logo.png" alt="Kenogami" className="h-10 w-auto" />
             </Link>
             <div className="ml-10 hidden space-x-8 lg:flex">
               <div className="relative group">
@@ -59,19 +59,16 @@ export default function Header() {
               <Link href="/pricing" className="text-gray-700 hover:text-primary-600 font-medium transition-colors">
                 Pricing
               </Link>
-              <Link href="/resources" className="text-gray-700 hover:text-primary-600 font-medium transition-colors">
-                Resources
-              </Link>
             </div>
           </div>
           
           <div className="ml-10 flex items-center space-x-4">
-            <a href="https://app.kenogami.com/signin" className="text-gray-700 hover:text-primary-500 font-medium transition-colors">
+            <a href="https://app.kenogami.com/auth/login" className="text-gray-700 hover:text-primary-600 font-medium transition-colors">
               Sign In
             </a>
-            <Link href="/trial" className="btn-primary">
+            <a href="https://app.kenogami.com/auth/signup" className="bg-gradient-to-r from-primary-500 to-primary-600 hover:from-primary-600 hover:to-primary-700 text-white font-semibold py-2.5 px-6 rounded-lg transition-all shadow-md hover:shadow-lg">
               Start Free Trial
-            </Link>
+            </a>
           </div>
 
           {/* Mobile menu button */}
@@ -104,9 +101,6 @@ export default function Header() {
               </Link>
               <Link href="/pricing" className="block px-3 py-2 text-base font-medium text-gray-700 hover:bg-gray-50">
                 Pricing
-              </Link>
-              <Link href="/resources" className="block px-3 py-2 text-base font-medium text-gray-700 hover:bg-gray-50">
-                Resources
               </Link>
             </div>
           </div>
