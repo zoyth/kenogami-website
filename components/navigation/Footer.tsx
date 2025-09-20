@@ -100,7 +100,7 @@ export default function Footer() {
         {/* Bottom Section */}
         <div className="mt-8 pt-8 border-t border-gray-800 flex flex-col sm:flex-row justify-between items-center">
           <p className="text-sm text-gray-400">
-            © 2024 Kenogami. All rights reserved.
+            © 2025 Kenogami. All rights reserved.
           </p>
           <div className="mt-4 sm:mt-0 flex space-x-6 text-sm">
             <Link href="/privacy" className="hover:text-white transition-colors">Privacy Policy</Link>

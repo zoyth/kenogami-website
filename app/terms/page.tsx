@@ -10,7 +10,7 @@ export default function TermsPage() {
           <div className="section-container">
             <div className="max-w-4xl mx-auto">
               <h1 className="text-4xl font-bold text-gray-900 mb-4">Terms of Service</h1>
-              <p className="text-gray-600 mb-8">Last updated: January 2024</p>
+              <p className="text-gray-600 mb-8">Last updated: September 2025</p>
 
               <div className="prose prose-lg max-w-none text-gray-700">
                 <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">1. Acceptance of Terms</h2>

@@ -85,7 +85,7 @@ export default function IntelligencePage() {
                 <p className="text-gray-600 mb-4">
                   AI identifies missing content, outdated information, and documentation gaps automatically.
                 </p>
-                <div className="text-sm text-secondary-600 font-semibold">Coming Q2 2024</div>
+                <div className="text-sm text-secondary-600 font-semibold">Available Now</div>
               </div>
 
               <div className="bg-gradient-to-br from-white to-primary-50 rounded-xl shadow-lg p-6 border border-primary-100">
@@ -96,7 +96,7 @@ export default function IntelligencePage() {
                 <p className="text-gray-600 mb-4">
                   Automatically improve readability, add summaries, and suggest better structure.
                 </p>
-                <div className="text-sm text-primary-600 font-semibold">Coming Q2 2024</div>
+                <div className="text-sm text-primary-600 font-semibold">Available Now</div>
               </div>
 
               <div className="bg-gradient-to-br from-white to-secondary-50 rounded-xl shadow-lg p-6 border border-secondary-100">
@@ -107,7 +107,7 @@ export default function IntelligencePage() {
                 <p className="text-gray-600 mb-4">
                   Visualize relationships between content, dependencies, and impact across your docs.
                 </p>
-                <div className="text-sm text-secondary-600 font-semibold">Coming Q3 2024</div>
+                <div className="text-sm text-secondary-600 font-semibold">Coming Q4 2025</div>
               </div>
 
               <div className="bg-gradient-to-br from-white to-primary-50 rounded-xl shadow-lg p-6 border border-primary-100">
@@ -118,7 +118,7 @@ export default function IntelligencePage() {
                 <p className="text-gray-600 mb-4">
                   Automatic keyword extraction and tagging for improved search and discovery.
                 </p>
-                <div className="text-sm text-primary-600 font-semibold">Coming Q2 2024</div>
+                <div className="text-sm text-primary-600 font-semibold">Available Now</div>
               </div>
 
               <div className="bg-gradient-to-br from-white to-secondary-50 rounded-xl shadow-lg p-6 border border-secondary-100">
@@ -129,7 +129,7 @@ export default function IntelligencePage() {
                 <p className="text-gray-600 mb-4">
                   Context-aware translations that maintain technical accuracy across languages.
                 </p>
-                <div className="text-sm text-secondary-600 font-semibold">Coming Q3 2024</div>
+                <div className="text-sm text-secondary-600 font-semibold">Coming Q4 2025</div>
               </div>
 
               <div className="bg-gradient-to-br from-white to-primary-50 rounded-xl shadow-lg p-6 border border-primary-100">
@@ -140,7 +140,7 @@ export default function IntelligencePage() {
                 <p className="text-gray-600 mb-4">
                   Real-time scoring of documentation quality, completeness, and effectiveness.
                 </p>
-                <div className="text-sm text-primary-600 font-semibold">Coming Q2 2024</div>
+                <div className="text-sm text-primary-600 font-semibold">Available Now</div>
               </div>
             </div>
           </div>

@@ -279,7 +279,7 @@ export default function AssistantPage() {
                   <div className="relative flex items-center">
                     <div className="flex-1 text-right pr-8">
                       <div className="inline-block px-3 py-1 bg-yellow-100 text-yellow-700 rounded-full text-sm font-semibold">
-                        Q2 2024
+                        Available Now
                       </div>
                     </div>
                     <div className="w-4 h-4 bg-yellow-500 rounded-full border-4 border-white shadow z-10"></div>
@@ -291,7 +291,7 @@ export default function AssistantPage() {
                   <div className="relative flex items-center">
                     <div className="flex-1 text-right pr-8">
                       <div className="inline-block px-3 py-1 bg-blue-100 text-blue-700 rounded-full text-sm font-semibold">
-                        Q4 2024
+                        Q1 2026
                       </div>
                     </div>
                     <div className="w-4 h-4 bg-blue-500 rounded-full border-4 border-white shadow z-10"></div>
@@ -303,7 +303,7 @@ export default function AssistantPage() {
                   <div className="relative flex items-center">
                     <div className="flex-1 text-right pr-8">
                       <div className="inline-block px-3 py-1 bg-purple-100 text-purple-700 rounded-full text-sm font-semibold">
-                        2025
+                        2026
                       </div>
                     </div>
                     <div className="w-4 h-4 bg-purple-500 rounded-full border-4 border-white shadow z-10"></div>

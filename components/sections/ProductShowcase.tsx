@@ -26,7 +26,7 @@ export default function ProductShowcase() {
     {
       id: 'assistant',
       name: 'AI Assistant',
-      status: 'Coming Q2 2024',
+      status: 'Available Now',
       statusColor: 'bg-blue-100 text-blue-800',
       description: 'Knowledge-grounded conversations that actually help',
       features: [
@@ -42,7 +42,7 @@ export default function ProductShowcase() {
     {
       id: 'analytics',
       name: 'Analytics Dashboard',
-      status: 'Coming Q3 2024',
+      status: 'Coming Q4 2025',
       statusColor: 'bg-purple-100 text-purple-800',
       description: 'See what\'s missing before users complain',
       features: [

@@ -88,7 +88,7 @@ export default function PlatformPage() {
                   </div>
                   <h3 className="text-2xl font-bold text-white mb-2">Intelligence Core</h3>
                   <div className="inline-block px-3 py-1 bg-white/20 backdrop-blur rounded-full text-white text-sm">
-                    Coming Q2 2024
+                    Available Now
                   </div>
                 </div>
                 <div className="p-6">
@@ -129,7 +129,7 @@ export default function PlatformPage() {
                   </div>
                   <h3 className="text-2xl font-bold text-white mb-2">AI Assistant</h3>
                   <div className="inline-block px-3 py-1 bg-white/20 backdrop-blur rounded-full text-white text-sm">
-                    Coming 2025
+                    Coming 2026
                   </div>
                 </div>
                 <div className="p-6">

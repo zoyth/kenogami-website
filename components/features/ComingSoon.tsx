@@ -4,37 +4,37 @@ export default function ComingSoon() {
       icon: '🤖',
       title: 'Advanced AI Intelligence',
       description: 'Transform documents into atomic knowledge units with deep learning',
-      quarter: 'Q2 2024'
+      quarter: 'Available Now'
     },
     {
       icon: '🔍',
       title: 'Semantic Search',
       description: 'Natural language search that understands context and intent',
-      quarter: 'Q2 2024'
+      quarter: 'Available Now'
     },
     {
       icon: '📊',
       title: 'Knowledge Gap Detection',
       description: 'Automatically identify missing or outdated documentation',
-      quarter: 'Q3 2024'
+      quarter: 'Q4 2025'
     },
     {
       icon: '🔗',
       title: 'Third-Party Integrations',
       description: 'Connect with Slack, Teams, Zendesk, and more',
-      quarter: 'Q3 2024'
+      quarter: 'Q4 2025'
     },
     {
       icon: '🎯',
       title: 'Advanced Analytics',
       description: 'Deep insights into content performance and user behavior',
-      quarter: 'Q4 2024'
+      quarter: 'Q1 2026'
     },
     {
       icon: '🤝',
       title: 'Collaboration Workflows',
       description: 'Review processes, approvals, and team collaboration features',
-      quarter: 'Q4 2024'
+      quarter: 'Q1 2026'
     }
   ]
 

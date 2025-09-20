@@ -13,6 +13,11 @@ export const metadata: Metadata = {
   description: 'Transform your static documentation into an intelligent knowledge system that learns from every interaction, adapts to each user, and evolves with your product.',
   keywords: 'knowledge base, documentation, SaaS, AI, intelligent documentation, multi-tenant',
   authors: [{ name: 'Kenogami' }],
+  icons: {
+    icon: '/images/kenogami_fav.png',
+    shortcut: '/images/kenogami_fav.png',
+    apple: '/images/kenogami_fav.png',
+  },
   openGraph: {
     title: 'Kenogami - Intelligent Knowledge Platform',
     description: 'Transform documentation into intelligent knowledge',
